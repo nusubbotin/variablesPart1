@@ -67,7 +67,7 @@ public class Main {
         System.out.println("Weight difference: boxer1,  boxer2 (calculation method 2) = " + weightBoxerCalcMeth2 + " кг.");
 
         System.out.println("task8:");
-        var AllTimePlan = 360;
+        var AllTimePlan = 640;
         var employeeTime = 8;
         var employeeCntPlan = AllTimePlan / employeeTime;
         System.out.println("Всего работников в компании – " + employeeCntPlan + " человек");
