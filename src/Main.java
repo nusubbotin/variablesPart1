@@ -58,5 +58,13 @@ public class Main {
 
         var weightBoxerDiff = weightBoxer2 - weightBoxer1;
         System.out.println("Weight difference: boxer1,  boxer2 = " + weightBoxerDiff + "кг.");
+
+        System.out.println("task7:");
+        var weightBoxerCalcMeth1 = weightBoxer2 - weightBoxer1;
+        System.out.println("Weight difference: boxer1,  boxer2 (calculation method 1) = " + weightBoxerCalcMeth1 + " кг.");
+
+        var weightBoxerCalcMeth2 = weightBoxer2 % weightBoxer1;
+        System.out.println("Weight difference: boxer1,  boxer2 (calculation method 2) = " + weightBoxerCalcMeth2 + " кг.");
+
     }
 }
